@@ -32,8 +32,8 @@ public class APITest009_NonBDDStyle_PUT {
         //    "additionalneeds" : "Breakfast"
         //}
 
-        String token = "95fecfaa8e1db3c";
-        String bookingid = "6103";
+        String token = "2f2f2fefc4295c9";
+        String bookingid = "6701";
 
 
         String payloadPUT = "{\n" +
