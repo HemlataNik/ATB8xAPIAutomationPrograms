@@ -3,12 +3,14 @@ package RestAssuredBasics.POST;
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
+import static io.restassured.RestAssured.requestSpecification;
+
 public class APITest008_NonBDDStyle_POST {
-    @Description("Verify the POST Request - Non BDD Style")
-    @Test
     public void test_non_bbd_post() {
 
         String payload = "{\n" +
